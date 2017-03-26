@@ -22,7 +22,7 @@ export class AppComponent {
   removeTodo(todo) {
     this.todoDataService.deleteTodoById(todo.id);
   }
-  
+
   get todos() {
     return this.todoDataService.getAllTodos();
   }
